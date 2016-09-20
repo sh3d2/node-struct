@@ -9,6 +9,7 @@ declare namespace Struct {
         set(name: string, value: string);
 
         word32Ule(name: string, length: number) : Struct;
+        _setBuff(buffer: Buffer);
 
         buffer(): Buffer;
     }
